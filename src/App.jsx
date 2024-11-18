@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import "./style.css"
+const cors = require('cors');
+app.use(cors());
+
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
