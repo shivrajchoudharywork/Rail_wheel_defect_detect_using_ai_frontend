@@ -1,0 +1,35 @@
+/* index.css */
+
+/* Basic body and HTML reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Optional for better responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .input, .button {
+    width: 100%;
+  }
+}

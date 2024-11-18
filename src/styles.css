@@ -1,0 +1,62 @@
+/* Overall styling */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* File upload section */
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-upload input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Upload button */
+.btn-upload {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-upload:hover {
+  background-color: #3e8e41; /* Darker green */
+}
+
+/* Result section */
+.result {
+  font-weight: bold;
+  margin-top: 20px;
+}
